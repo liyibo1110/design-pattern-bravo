@@ -1,0 +1,8 @@
+package com.github.liyibo1110.pattern.simple_factory.product;
+
+/**
+ * @author liyibo
+ * @date 2025-10-22 14:22
+ */
+public abstract class AbstractProduct {
+}
