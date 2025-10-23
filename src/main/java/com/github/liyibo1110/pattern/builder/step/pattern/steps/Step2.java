@@ -1,0 +1,9 @@
+package com.github.liyibo1110.pattern.builder.step.pattern.steps;
+
+/**
+ * @author liyibo
+ * @date 2025-10-23 13:58
+ */
+public interface Step2 {
+    Step3 step2(String part2);
+}
