@@ -30,7 +30,7 @@ public class SpringEventTest {
         // 这里生成订单
         // 这里做其它后续
         // 下单成功，发布事件
-        this.context.publish(new OrderCompletedEvent(10086L));
+        this.context.publish(new OrderCompletedEvent(1L));
         // 等待异步消息
         TimeUnit.SECONDS.sleep(10);
     }
